@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "credilinq_Backend",
+    "builds": [
+       { "src": "./app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
